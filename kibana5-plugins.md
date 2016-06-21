@@ -42,6 +42,20 @@ bin/kibana --dev
 If everything is ok, you should get a message about lazy optimization at the end.
 
 
+##Create plugin
+
+I import Tim Roes plugin
+```
+cd installedPlugins
+git clone https://github.com/timroes/tr-k4p-clock
+```
+I had to make some changes to make this plugin work in Kibana 5 (not sure if version fix or just a mistake in original script)
+
+line 24:
+```
+-- var TemplateVisType = Private(require('ui/template_vis_type/TemplateVisType'));
+++ var TemplateVisType = Private(require('ui/template_vis_type/template_vis_type'));
+```
 
 
 

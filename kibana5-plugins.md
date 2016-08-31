@@ -4,7 +4,7 @@ I am following Tim Roes tutorial [Writing Kibana 4 Plugins – Basics](https://w
 
 I assume the followings:
 * You have successfully installed kibana 5 for development. You can find a good guide [here](https://github.com/jgbarah/Notes/blob/master/kibana-devel.md).
-*You have installed a suitable version of elasticSearch for your Kibana.
+* You have installed a suitable version of elasticSearch for your Kibana.
 * You are using nvm for node.js version managing installing it as specified [here](https://github.com/jgbarah/Notes/blob/master/kibana-devel.md#install-the-nvm-tool)
 
 ### Install node.js and dependencies
